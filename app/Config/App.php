@@ -23,7 +23,7 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $baseURL = 'http://localhost:8080/';
+	public $baseURL =  (ENVIRONMENT !== 'production') ?'http://localhost:8080/': 'https://sit.hosting.acm.org/';
 
 	/**
 	 * --------------------------------------------------------------------------

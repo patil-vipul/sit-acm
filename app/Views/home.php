@@ -263,7 +263,7 @@
                 <div class="col-md-6 col-lg ftco-animate">
                     <div class="staff">
                         <div class="img-wrap d-flex align-items-stretch">
-                            <div class="img align-self-stretch" style="background-image: url(images/Darshan_patil.png);"></div>
+                            <div class="img align-self-stretch" style="background-image: url(images/darshan.jpg);"></div>
                         </div>
                         <div class="text d-flex align-items-center pt-3 text-center">
                             <div>
@@ -351,7 +351,7 @@
                 <div class="col-md-6 col-lg ftco-animate">
                     <div class="staff">
                         <div class="img-wrap d-flex align-items-stretch">
-                            <div class="img align-self-stretch" style="background-image: url(images/Dhwani_Patel.jpg);"></div>
+                            <div class="img align-self-stretch" style="background-image: url(images/dhwani.jpg);"></div>
                         </div>
                         <div class="text d-flex align-items-center pt-3 text-center">
                             <div>
