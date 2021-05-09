@@ -249,7 +249,7 @@
             </div>
         </div>
     </section>
-
+    
     <section class="ftco-section" data-section="team">
         <div class="container-fluid p-0">
             <div class="row no-gutters justify-content-center pb-5">
