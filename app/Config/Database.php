@@ -33,9 +33,9 @@ class Database extends Config
 	public $default = [
 		'DSN'      => '',
 		'hostname' => 'localhost',
-		'username' => 'root',
-		'password' => '',
-		'database' => 'sit_acm',
+		'username' => (ENVIRONMENT !== 'production') ?'root': 'sithosting_maindb_user',
+		'password' => (ENVIRONMENT !== 'production') ?'': 'Onayeinsaan@#1',
+		'database' => (ENVIRONMENT !== 'production') ?'sit_acm': 'sithosting_maindb',
 		'DBDriver' => 'MySQLi',
 		'DBPrefix' => '',
 		'pConnect' => false,

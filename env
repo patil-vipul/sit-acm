@@ -51,11 +51,13 @@
 # DATABASE
 #--------------------------------------------------------------------
 
-database.default.hostname = localhost
-database.default.database = sit_acm
-database.default.username = root
-database.default.password = 
-database.default.DBDriver = MySQLi
+#database.default.hostname = localhost
+#database.default.database = sit_acm
+#database.default.username = root
+#database.default.password = 
+#database.default.DBDriver = MySQLi
+
+#smtp.pass = 97pMTX5AQd-WbrF
 
 # database.tests.hostname = localhost
 # database.tests.database = ci4
