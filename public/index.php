@@ -10,7 +10,7 @@ unset($minPHPVersion);
 
 // Path to the front controller (this file)
 define('FCPATH', __DIR__ . DIRECTORY_SEPARATOR);
-if ($_SERVER['SERVER_NAME']=='https://sit.hosting.acm.org/')
+if ($_SERVER['SERVER_NAME']=='sit.hosting.acm.org')
    define('ENVIRONMENT', 'production');
 else if ($_SERVER['SERVER_NAME']=='test.siteurl.com')
    define('ENVIRONMENT', 'testing');
