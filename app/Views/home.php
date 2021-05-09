@@ -29,6 +29,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container">
             <a class="navbar-brand" href="index.html">
+                <!-- <img src="/images/SIT_ACM_BRAND_LOGO.png"> -->
                 <span>SINHAGAD INSTITUTE OF TECHNOLOGY</span>
                 <small class="d-block m-0 p-0 navbar-brand">ACM STUDENT CHAPTER</small>
             </a>
@@ -243,13 +244,12 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <section class="ftco-section" data-section="team">
         <div class="container-fluid p-0">
             <div class="row no-gutters justify-content-center pb-5">
