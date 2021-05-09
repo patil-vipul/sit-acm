@@ -81,7 +81,7 @@ class Database extends Config
 	public function __construct()
 	{
 		parent::__construct();
-		echo "<h1>DAncer</h1>";
+		echo "<h1>DAncer</h1>".ENVIRONMENT;
 		// Ensure that we always set the database group to 'tests' if
 		// we are currently running an automated test suite, so that
 		// we don't overwrite live data on accident.
