@@ -11,8 +11,6 @@ unset($minPHPVersion);
 define('FCPATH', __DIR__ . DIRECTORY_SEPARATOR);
 if ($_SERVER['SERVER_NAME'] == 'sit.acm.org')
    define('ENVIRONMENT', 'production');
-else if ($_SERVER['SERVER_NAME'] == 'test.siteurl.com')
-   define('ENVIRONMENT', 'testing');
 else
    define('ENVIRONMENT', 'development');
 

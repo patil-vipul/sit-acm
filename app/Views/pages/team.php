@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Square - Free Bootstrap 4 Template by Colorlib</title>
+    <title><?= esc($title) ?> - SIT | ACM </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -26,7 +26,7 @@
 
 <body>
 
-   
+
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-dark" id="ftco-navbar">
         <div class="container">
             <a class="navbar-brand" href="index.html">
@@ -34,12 +34,12 @@
                 <small class="d-block m-0 p-0 navbar-brand">ACM STUDENT CHAPTER</small>
             </a>
             <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
+                <span class="oi oi-menu"></span> Menu
+            </button>
 
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav nav ml-auto">
-                    <li class="nav-item"><a class="nav-link"  href="/" onclick="location.href='/'" data-nav-section="home"><span>Home</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="/" onclick="location.href='/'" data-nav-section="home"><span>Home</span></a></li>
                     <li class="nav-item"><a href="/about" onclick="location.href='/about'" class="nav-link" data-nav-section="about"><span>About</span></a></li>
                     <li class="nav-item"><a href="/team" onclick="location.href='/team'" class="nav-link" data-nav-section="team"><span>Team</span></a></li>
 
@@ -51,7 +51,7 @@
             </div>
         </div>
     </nav>
-    
+
 
     <section class="ftco-section" data-section="team">
         <div class="container-fluid p-0">
@@ -66,7 +66,7 @@
                 <div class="col-md-6 col-lg ftco-animate">
                     <div class="staff">
                         <div class="img-wrap d-flex align-items-stretch">
-                            <div class="img align-self-stretch" style="background-image: url(images/Darshan_patil.png);"></div>
+                            <div class="img align-self-stretch" style="background-image: url(images/darshan.jpg);"></div>
                         </div>
                         <div class="text d-flex align-items-center pt-3 text-center">
                             <div>
@@ -154,7 +154,7 @@
                 <div class="col-md-6 col-lg ftco-animate">
                     <div class="staff">
                         <div class="img-wrap d-flex align-items-stretch">
-                            <div class="img align-self-stretch" style="background-image: url(images/Dhwani_Patel.jpg);"></div>
+                            <div class="img align-self-stretch" style="background-image: url(images/dhwani.jpg);"></div>
                         </div>
                         <div class="text d-flex align-items-center pt-3 text-center">
                             <div>
@@ -174,7 +174,7 @@
                     </div>
                 </div>
             </div>
-			<div class="row no-gutters">
+            <div class="row no-gutters">
                 <div class="col-md-6 col-lg ftco-animate">
                     <div class="staff">
                         <div class="img-wrap d-flex align-items-stretch">
@@ -219,7 +219,7 @@
                         </div>
                     </div>
                 </div>
-				<div class="col-md-6 col-lg ftco-animate">
+                <div class="col-md-6 col-lg ftco-animate">
                     <div class="staff">
                         <div class="img-wrap d-flex align-items-stretch">
                             <div class="img align-self-stretch" style="background-image: url(images/mansi_sharma.jpg);"></div>
@@ -241,7 +241,7 @@
                         </div>
                     </div>
                 </div>
-				<div class="col-md-6 col-lg ftco-animate">
+                <div class="col-md-6 col-lg ftco-animate">
                     <div class="staff">
                         <div class="img-wrap d-flex align-items-stretch">
                             <div class="img align-self-stretch" style="background-image: url(images/Vipul_Patil.jpg);"></div>
@@ -263,7 +263,7 @@
                         </div>
                     </div>
                 </div>
-				<div class="col-md-6 col-lg ftco-animate">
+                <div class="col-md-6 col-lg ftco-animate">
                     <div class="staff">
                         <div class="img-wrap d-flex align-items-stretch">
                             <div class="img align-self-stretch" style="background-image: url(images/sumit.jpg);"></div>
@@ -297,23 +297,6 @@
                     <div class="carousel-testimony owl-carousel">
                         <div class="item">
                             <div class="testimony-wrap d-flex align-items-stretch">
-                                <div class="user-img d-flex align-self-stretch" style="background-image: url(images/testimony-1.jpg)">
-                                </div>
-                                <div class="text d-flex align-items-center">
-                                    <div>
-                                        <div class="icon-quote">
-                                            <span class="icon-quote-left"></span>
-                                        </div>
-                                        <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia.
-                                            It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                                        <p class="name">Jacob Bolton</p>
-                                        <span class="position">CEO, Founder</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="testimony-wrap d-flex align-items-stretch">
                                 <div class="user-img d-flex align-self-stretch" style="background-image: url(images/Madhuri_Maam.jpeg)">
                                 </div>
                                 <div class="text d-flex align-items-center">
@@ -324,6 +307,56 @@
                                         <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia.
                                             It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
                                         <p class="name">Prof. Madhuri Kumbhar</p>
+                                        <span class="position">Coordinator</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap d-flex align-items-stretch">
+                                <div class="user-img d-flex align-self-stretch" style="background-image: url(images/hod.jpg)">
+                                </div>
+                                <div class="text d-flex align-items-center">
+                                    <div>
+                                        <div class="icon-quote">
+                                            <span class="icon-quote-left"></span>
+                                        </div>
+                                        <p class="mb-4">The goal of the department is to establish state-of-art- computing environment to develop competent computer engineers.</p>
+                                        <p class="name">Dr. S.D. Babar</p>
+                                        <span class="position">HOD, Computer Department</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap d-flex align-items-stretch">
+                                <div class="user-img d-flex align-self-stretch" style="background-image: url(images/principal.jpg)">
+                                </div>
+                                <div class="text d-flex align-items-center">
+                                    <div>
+                                        <div class="icon-quote">
+                                            <span class="icon-quote-left"></span>
+                                        </div>
+                                        <p class="mb-4">This institute, being dedicated to the students’ aspirations for excellence in technical education, is an ultimate destination for grooming your technical capabilities. SIT has a well planned, beautifully developed
+                                            and maintained campus of 170 acres which enjoy the free handed gift of natural beauty. Eventually, provides conducive environment for leaning and your multidimensional development.</p>
+                                        <p class="name">Dr. M.S Gaikwad</p>
+                                        <span class="position">Principle, Sinhgad Institute of Technology</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap d-flex align-items-stretch">
+                                <div class="user-img d-flex align-self-stretch" style="background-image: url(images/Shailaja_Mam.jpeg)">
+                                </div>
+                                <div class="text d-flex align-items-center">
+                                    <div>
+                                        <div class="icon-quote">
+                                            <span class="icon-quote-left"></span>
+                                        </div>
+                                        <p class="mb-4">This institute, being dedicated to the students’ aspirations for excellence in technical education, is an ultimate destination for grooming your technical capabilities. SIT has a well planned, beautifully developed
+                                            and maintained campus of 170 acres which enjoy the free handed gift of natural beauty. Eventually, provides conducive environment for leaning and your multidimensional development.</p>
+                                        <p class="name">Prof. Sailaja Lohar</p>
                                         <span class="position">Coordinator</span>
                                     </div>
                                 </div>
@@ -343,9 +376,9 @@
                         <h2 class="ftco-heading-2">SINHAGAD INSTITUTE OF TECHNOLOGY</h2>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                         <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                            <!-- <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li> -->
+                            <li class="ftco-animate"><a href="https://www.facebook.com/acm.sit.9"><span class="icon-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.instagram.com/sit_acm_student_chapter/"><span class="icon-instagram"></span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -353,15 +386,15 @@
                     <div class="ftco-footer-widget mb-4 ml-md-4">
                         <h2 class="ftco-heading-2">Links</h2>
                         <ul class="list-unstyled">
-                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
-                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
-                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
-                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
-                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
+                            <li><a href="/" onclick="location.href='/'"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
+                            <li><a href="/about" onclick="location.href='/about'"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
+                            <li><a href="/team" onclick="location.href='/team'"><span class="icon-long-arrow-right mr-2"></span>Team</a></li>
+                            <li><a href="/blog" onclick="location.href='/blog'"><span class="icon-long-arrow-right mr-2"></span>Blog</a></li>
+                            <li><a href="/contact" onclick="location.href='/'"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md">
+                <!-- <div class="col-md">
                     <div class="ftco-footer-widget mb-4">
                         <h2 class="ftco-heading-2">Services</h2>
                         <ul class="list-unstyled">
@@ -372,15 +405,15 @@
                             <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>AutoCAD Service</a></li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-md">
                     <div class="ftco-footer-widget mb-4">
                         <h2 class="ftco-heading-2">Have a Questions?</h2>
                         <div class="block-23 mb-3">
                             <ul>
-                                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                                <li><span class="icon icon-map-marker"></span><span class="text">SIT, Kusgaon, Lonavla, Maharashtra 410401</span></li>
+                                <li><a href=""><span class="icon icon-phone"></span><span class="text">+91 8967452310</span></a></li>
+                                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">sit.acm.chapter@gmail.com</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -394,7 +427,7 @@
                         Copyright &copy;
                         <script>
                             document.write(new Date().getFullYear());
-                        </script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        </script> All rights reserved
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </p>
                 </div>
@@ -403,9 +436,11 @@
     </footer>
 
 
-
     <!-- loader -->
-    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" />
+        </svg></div>
 
 
     <script src="js/jquery.min.js"></script>

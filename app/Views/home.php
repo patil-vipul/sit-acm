@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Square - Free Bootstrap 4 Template by Colorlib</title>
+    <title><?= esc($title) ?> - SIT | ACM </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -34,8 +34,8 @@
                 <small class="d-block m-0 p-0 navbar-brand">ACM STUDENT CHAPTER</small>
             </a>
             <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
+                <span class="oi oi-menu"></span> Menu
+            </button>
 
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav nav ml-auto">
@@ -191,7 +191,7 @@
     <section class="ftco-section" data-section="team">
         <div class="container p-0">
             <div class="row no-gutters justify-content-center pb-5">
-           
+
                 <div class="col-md-12 heading-section text-center ftco-animate">
                     <span class="subheading">ACM STUDENT CHAPTER</span>
                     <h2 class="mb-4">Founded by Richard Hamming in 1947</h2>
@@ -199,8 +199,8 @@
                 </div>
                 <img height="250" src="/images/logoacm.png">
             </div>
-            
-			
+
+
         </div>
     </section>
 
@@ -371,7 +371,7 @@
                     </div>
                 </div>
             </div>
-			<div class="row no-gutters">
+            <div class="row no-gutters">
                 <div class="col-md-6 col-lg ftco-animate">
                     <div class="staff">
                         <div class="img-wrap d-flex align-items-stretch">
@@ -416,7 +416,7 @@
                         </div>
                     </div>
                 </div>
-				<div class="col-md-6 col-lg ftco-animate">
+                <div class="col-md-6 col-lg ftco-animate">
                     <div class="staff">
                         <div class="img-wrap d-flex align-items-stretch">
                             <div class="img align-self-stretch" style="background-image: url(images/mansi_sharma.jpg);"></div>
@@ -438,7 +438,7 @@
                         </div>
                     </div>
                 </div>
-				<div class="col-md-6 col-lg ftco-animate">
+                <div class="col-md-6 col-lg ftco-animate">
                     <div class="staff">
                         <div class="img-wrap d-flex align-items-stretch">
                             <div class="img align-self-stretch" style="background-image: url(images/Vipul_Patil.jpg);"></div>
@@ -460,7 +460,7 @@
                         </div>
                     </div>
                 </div>
-				<div class="col-md-6 col-lg ftco-animate">
+                <div class="col-md-6 col-lg ftco-animate">
                     <div class="staff">
                         <div class="img-wrap d-flex align-items-stretch">
                             <div class="img align-self-stretch" style="background-image: url(images/sumit.jpg);"></div>
@@ -494,24 +494,7 @@
                     <div class="carousel-testimony owl-carousel">
                         <div class="item">
                             <div class="testimony-wrap d-flex align-items-stretch">
-                                <div class="user-img d-flex align-self-stretch" style="background-image: url(images/testimony-1.jpg)">
-                                </div>
-                                <div class="text d-flex align-items-center">
-                                    <div>
-                                        <div class="icon-quote">
-                                            <span class="icon-quote-left"></span>
-                                        </div>
-                                        <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia.
-                                            It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                                        <p class="name">Jacob Bolton</p>
-                                        <span class="position">CEO, Founder</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="testimony-wrap d-flex align-items-stretch">
-                                <div class="user-img d-flex align-self-stretch" style="background-image: url(images/Madhuri_Maam.jpeg)">
+                                <div class="" style="background-image: url(images/Madhuri_Maam.jpeg);width:240px;height:290px;background-repeat:no-repeat; background-size:100% 100%;">
                                 </div>
                                 <div class="text d-flex align-items-center">
                                     <div>
@@ -521,6 +504,56 @@
                                         <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia.
                                             It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
                                         <p class="name">Prof. Madhuri Kumbhar</p>
+                                        <span class="position">Coordinator</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap d-flex align-items-stretch">
+                                <div style="background-image: url(images/hod.jpg);width:240px;height:290px;background-repeat:no-repeat; background-size:100% 100%;">
+                                </div>
+                                <div class="text d-flex align-items-center">
+                                    <div>
+                                        <div class="icon-quote">
+                                            <span class="icon-quote-left"></span>
+                                        </div>
+                                        <p class="mb-4">The goal of the department is to establish state-of-art- computing environment to develop competent computer engineers.</p>
+                                        <p class="name">Dr. S.D. Babar</p>
+                                        <span class="position">HOD, Computer Department</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap d-flex align-items-stretch">
+                                <div style="background-image: url(images/principal.jpg);width:240px;height:290px;background-repeat:no-repeat; background-size:100% 100%;">
+                                </div>
+                                <div class="text d-flex align-items-center">
+                                    <div>
+                                        <div class="icon-quote">
+                                            <span class="icon-quote-left"></span>
+                                        </div>
+                                        <p class="mb-4">This institute, being dedicated to the students’ aspirations for excellence in technical education, is an ultimate destination for grooming your technical capabilities. SIT has a well planned, beautifully developed
+                                            and maintained campus of 170 acres which enjoy the free handed gift of natural beauty. Eventually, provides conducive environment for leaning and your multidimensional development.</p>
+                                        <p class="name">Dr. M.S Gaikwad</p>
+                                        <span class="position">Principle, Sinhgad Institute of Technology</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap d-flex align-items-stretch">
+                                <div style="background-image: url(images/Shailaja_Mam.jpeg);width:240px;height:290px;background-repeat:no-repeat; background-size:100% 100%;">
+                                </div>
+                                <div class="text d-flex align-items-center">
+                                    <div>
+                                        <div class="icon-quote">
+                                            <span class="icon-quote-left"></span>
+                                        </div>
+                                        <p class="mb-4">This institute, being dedicated to the students’ aspirations for excellence in technical education, is an ultimate destination for grooming your technical capabilities. SIT has a well planned, beautifully developed
+                                            and maintained campus of 170 acres which enjoy the free handed gift of natural beauty. Eventually, provides conducive environment for leaning and your multidimensional development.</p>
+                                        <p class="name">Prof. Sailaja Lohar</p>
                                         <span class="position">Coordinator</span>
                                     </div>
                                 </div>
@@ -542,43 +575,43 @@
                 </div>
             </div>
             <div class="row d-flex">
-               
 
-                <?php if (! empty($blogs) && is_array($blogs)) : ?>
-                    <?php foreach ($blogs as $blog_item): ?>>
-                        <div class="col-md-4 d-flex ftco-animate">
-                    <div class="blog-entry justify-content-end">
-                        <a href="single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
-                        </a>
-                        <div class="text mt-3 float-right d-block">
-                            <div class="d-flex align-items-center pt-2 mb-4 topp">
-                                <div class="one mr-3">
-                                    <span class="day">12</span>
+
+                <?php if (!empty($blogs) && is_array($blogs)) : ?>
+                    <?php foreach ($blogs as $blog_item) : ?>>
+                    <div class="col-md-4 d-flex ftco-animate">
+                        <div class="blog-entry justify-content-end">
+                            <a href="single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+                            </a>
+                            <div class="text mt-3 float-right d-block">
+                                <div class="d-flex align-items-center pt-2 mb-4 topp">
+                                    <div class="one mr-3">
+                                        <span class="day">12</span>
+                                    </div>
+                                    <div class="two">
+                                        <span class="yr">2019</span>
+                                        <span class="mos">March</span>
+                                    </div>
                                 </div>
-                                <div class="two">
-                                    <span class="yr">2019</span>
-                                    <span class="mos">March</span>
+                                <h3 class="heading"><a href="single.html"><?= esc($blog_item['BlogTitle']) ?></a></h3>
+                                <p><?= esc(substr($blog_item['BlogContent'], 0, 90) . '...') ?></p>
+                                <div class="d-flex align-items-center mt-4 meta">
+                                    <p class="mb-0"><a href="/blog/<?= esc($blog_item['BlogSlug']) ?>" class="btn btn-secondary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
+                                    <p class="ml-auto mb-0">
+                                        <a href="#" class="mr-2">Admin</a>
+                                        <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+                                    </p>
                                 </div>
-                            </div>
-                            <h3 class="heading"><a href="single.html"><?= esc($blog_item['BlogTitle'])?></a></h3>
-                            <p><?= esc(substr($blog_item['BlogContent'],0,90).'...')?></p>
-                            <div class="d-flex align-items-center mt-4 meta">
-                                <p class="mb-0"><a href="/blog/<?= esc($blog_item['BlogSlug'])?>" class="btn btn-secondary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
-                                <p class="ml-auto mb-0">
-                                    <a href="#" class="mr-2">Admin</a>
-                                    <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-                                </p>
                             </div>
                         </div>
                     </div>
-                </div>
-                    <?php endforeach; ?>
-                <?php else : ?>
-                    <h3>No blogs</h3>
-                    <p>Unable to find any blogs for you.</p>
-                <?php endif ?>
+                <?php endforeach; ?>
+            <?php else : ?>
+                <h3>No blogs</h3>
+                <p>Unable to find any blogs for you.</p>
+            <?php endif ?>
 
-                
+
             </div>
         </div>
     </section>
@@ -616,8 +649,8 @@
 
                 <div class="col-md-6 d-flex">
                     <div class="bg-white w-100 position-relative overflow-hidden h-100">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30226.739893882634!2d73.443896!3d18.738233!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6d8398f7fcc9db6f!2sSIT%20Sinhgad%20Institute%20Of%20Technology%20lonavala!5e0!3m2!1sen!2sus!4v1620533057856!5m2!1sen!2sus"  frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%" allowfullscreen="" loading="lazy"></iframe>
-                    </div> 
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30226.739893882634!2d73.443896!3d18.738233!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6d8398f7fcc9db6f!2sSIT%20Sinhgad%20Institute%20Of%20Technology%20lonavala!5e0!3m2!1sen!2sus!4v1620533057856!5m2!1sen!2sus" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
                 </div>
             </div>
         </div>
@@ -726,7 +759,7 @@
                         Copyright &copy;
                         <script>
                             document.write(new Date().getFullYear());
-                        </script> All rights reserved 
+                        </script> All rights reserved
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </p>
                 </div>
@@ -737,7 +770,10 @@
 
 
     <!-- loader -->
-    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" />
+        </svg></div>
 
 
     <script src="js/jquery.min.js"></script>
