@@ -219,7 +219,7 @@
                         <div class="item">
                             <div class="project">
                                 <div class="img">
-                                    <img src="images/event-1.jpeg" class="img-fluid" alt="Colorlib Template">
+                                    <img src="images/event-1.jpeg" class="img-fluid h-100 w-100" alt="Colorlib Template">
                                     <a href="images/event-1.jpeg" class="icon image-popup d-flex justify-content-center align-items-center">
                                         <span class="icon-expand"></span>
                                     </a>

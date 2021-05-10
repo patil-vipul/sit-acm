@@ -2,17 +2,16 @@
 
 // Valid PHP Version?
 $minPHPVersion = '7.3';
-if (version_compare(PHP_VERSION, $minPHPVersion, '<'))
-{
-	die("Your PHP version must be {$minPHPVersion} or higher to run CodeIgniter. Current version: " . PHP_VERSION);
+if (version_compare(PHP_VERSION, $minPHPVersion, '<')) {
+   die("Your PHP version must be {$minPHPVersion} or higher to run CodeIgniter. Current version: " . PHP_VERSION);
 }
 unset($minPHPVersion);
 
 // Path to the front controller (this file)
 define('FCPATH', __DIR__ . DIRECTORY_SEPARATOR);
-if ($_SERVER['SERVER_NAME']=='sit.hosting.acm.org')
+if ($_SERVER['SERVER_NAME'] == 'sit.acm.org')
    define('ENVIRONMENT', 'production');
-else if ($_SERVER['SERVER_NAME']=='test.siteurl.com')
+else if ($_SERVER['SERVER_NAME'] == 'test.siteurl.com')
    define('ENVIRONMENT', 'testing');
 else
    define('ENVIRONMENT', 'development');
