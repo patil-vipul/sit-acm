@@ -30,8 +30,7 @@
         <div class="container">
             <a class="navbar-brand" href="index.html">
                 <!-- <img src="/images/SIT_ACM_BRAND_LOGO.png"> -->
-                <span>SINHAGAD INSTITUTE OF TECHNOLOGY</span>
-                <small class="d-block m-0 p-0 navbar-brand">ACM STUDENT CHAPTER</small>
+                <span>ACM SIT</span>
             </a>
             <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="oi oi-menu"></span> Menu
@@ -53,7 +52,7 @@
     </nav>
 
     <section class="hero-wrap js-fullheight" style="background-image: url('images/banner-image.jpg');" data-section="home">
-        <div class="overlay"></div>
+        <div class="overlay w-100"></div>
         <div class="container">
             <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
                 <div class="col-md-8 ftco-animate mt-5" data-scrollax=" properties: { translateY: '70%' }">
@@ -63,7 +62,7 @@
                             <span class="watch">Watch Video</span>
                         </a>
                     </p>
-                    <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">We are Changing the World & our Weapon is Quality Education</h1>
+                    <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Changing the World with Quality Education</h1>
                     <p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">A little progress each day adds up to big results</p>
                 </div>
             </div>
@@ -192,12 +191,12 @@
         <div class="container p-0">
             <div class="row no-gutters justify-content-center pb-5">
 
-                <div class="col-md-12 heading-section text-center ftco-animate">
+                <div class="col-md-12 heading-section text-center ftco-animate overflow-hidden">
                     <span class="subheading">ACM STUDENT CHAPTER</span>
                     <h2 class="mb-4">Founded by Richard Hamming in 1947</h2>
-                    <p>ACM brings together computing educators, researchers, and professionals to inspire dialogue, share resources, and address the field's challenges. As the world’s largest computing society, ACM strengthens the profession's collective voice through strong leadership, promotion of the highest standards, and recognition of technical excellence. ACM supports the professional growth of its members by providing opportunities for life‐long learning, career development, and professional networking.</p>
+                    <p class="text-justify">ACM brings together computing educators, researchers, and professionals to inspire dialogue, share resources, and address the field's challenges. As the world’s largest computing society, ACM strengthens the profession's collective voice through strong leadership, promotion of the highest standards, and recognition of technical excellence. ACM supports the professional growth of its members by providing opportunities for life‐long learning, career development, and professional networking.</p>
                 </div>
-                <img height="250" src="/images/logoacm.png">
+                <img style="max-height: 200px;object-fit:contain" class="w-100" src="/images/logoacm.png">
             </div>
 
 
@@ -210,7 +209,7 @@
                 <div class="col-md-12 heading-section text-center ftco-animate">
                     <span class="subheading">Accomplishments</span>
                     <h2 class="mb-4">Our Events</h2>
-                    <p>Always ready to the work</p>
+
                 </div>
             </div>
             <div class="row">
@@ -256,7 +255,6 @@
                 <div class="col-md-12 heading-section text-center ftco-animate">
                     <span class="subheading">Core Team Members</span>
                     <h2 class="mb-4">Behind those Beautiful Works</h2>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
                 </div>
             </div>
             <div class="row no-gutters">
@@ -571,7 +569,6 @@
                 <div class="col-md-7 heading-section text-center ftco-animate">
                     <span class="subheading">Blog</span>
                     <h2 class="mb-4">Read Our Stories</h2>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
                 </div>
             </div>
             <div class="row d-flex">
@@ -622,7 +619,7 @@
                 <div class="col-md-7 heading-section text-center ftco-animate">
                     <span class="subheading">Contact</span>
                     <h2 class="mb-4">Contact Us</h2>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+
                 </div>
             </div>
             <div class="row no-gutters block-9">
